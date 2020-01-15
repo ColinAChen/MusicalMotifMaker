@@ -10,6 +10,7 @@ Our idea was that instead of using a RNN, we could encode time across the space 
 
 ## Data Preparation Pipeline
 Song (MIDI) -> Extract Melody from Song (MIDI) -> Encode Song into Image (PNG)
+Classical Songs were taken from Soumik Rakshit's [Kaggle](https://www.kaggle.com/soumikrakshit/classical-music-midi).
 #### Melody Extraction
 To simplify the images and keep them in grayscale, we wanted to only encode the melody of the piece. 
 <insert explanation and sample>
